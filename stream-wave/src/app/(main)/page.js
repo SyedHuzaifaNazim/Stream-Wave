@@ -2,9 +2,9 @@
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { TrendingUp, Clock, Star, Zap } from 'lucide-react'
-import { VideoGrid } from '../components/video/VideoGrid'
-import { useVideos } from '../hooks/useVideos'
-import { YouTubeAPI } from '../lib/youtube-api'
+import { VideoGrid } from '../../../components/ui/VideoGrid'
+import { useVideos } from '../../../hooks/useVideos'
+import { YouTubeAPI } from '../../../lib/youtube-api'
 
 export default function HomePage() {
   const { videos, loading, error, searchVideos, getPopularVideos } = useVideos()
