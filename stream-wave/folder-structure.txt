@@ -1,0 +1,84 @@
+streamwave-app/
+├── public/
+│   ├── icons/
+│   │   ├── logo.svg
+│   │   ├── google.svg
+│   │   └── favicon.ico
+│   └── images/
+│       └── placeholder-avatar.png
+├── src/
+│   ├── app/
+│   │   ├── (auth)/
+│   │   │   ├── login/
+│   │   │   │   └── page.js
+│   │   │   └── signup/
+│   │   │       └── page.js
+│   │   ├── (main)/
+│   │   │   ├── layout.js
+│   │   │   ├── page.js
+│   │   │   ├── browse/
+│   │   │   │   └── page.js
+│   │   │   ├── library/
+│   │   │   │   └── page.js
+│   │   │   ├── history/
+│   │   │   │   └── page.js
+│   │   │   └── watch/
+│   │   │       └── [videoId]/
+│   │   │           └── page.js
+│   │   ├── api/
+│   │   │   ├── auth/
+│   │   │   │   ├── google/
+│   │   │   │   │   └── route.js
+│   │   │   │   └── verify/
+│   │   │   │       └── route.js
+│   │   │   ├── videos/
+│   │   │   │   ├── route.js
+│   │   │   │   ├── search/
+│   │   │   │   │   └── route.js
+│   │   │   │   └── trending/
+│   │   │   │       └── route.js
+│   │   │   └── channels/
+│   │   │       └── route.js
+│   │   ├── globals.css
+│   │   ├── layout.js
+│   │   └── page.js
+│   ├── components/
+│   │   ├── ui/
+│   │   │   ├── Button.js
+│   │   │   ├── Card.js
+│   │   │   ├── Modal.js
+│   │   │   ├── SearchBar.js
+│   │   │   └── Sidebar.js
+│   │   ├── layout/
+│   │   │   ├── Header.js
+│   │   │   ├── Footer.js
+│   │   │   └── Navigation.js
+│   │   ├── video/
+│   │   │   ├── VideoCard.js
+│   │   │   ├── VideoPlayer.js
+│   │   │   ├── VideoGrid.js
+│   │   │   └── CommentsSection.js
+│   │   └── auth/
+│   │       ├── GoogleAuthButton.js
+│   │       └── AuthGuard.js
+│   ├── lib/
+│   │   ├── auth.js
+│   │   ├── youtube-api.js
+│   │   ├── utils.js
+│   │   └── constants.js
+│   ├── context/
+│   │   ├── AuthContext.js
+│   │   └── ThemeContext.js
+│   ├── hooks/
+│   │   ├── useAuth.js
+│   │   ├── useVideos.js
+│   │   └── useLocalStorage.js
+│   └── styles/
+│       └── custom.css
+├── .env.local
+├── .env.example
+├── next.config.js
+├── tailwind.config.js
+├── postcss.config.js
+├── package.json
+└── README.md
